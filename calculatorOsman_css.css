@@ -1,0 +1,54 @@
+body {
+	background-color: Thistle;
+}
+.calculator {
+	background-color: grey;
+	margin: 1% 32%;
+}
+.textLabel {
+	margin: 2.5% auto;
+	display: block;
+	height: 4vw;
+	background-color: lightGrey;
+}
+.textLabel>h1 {
+	font-size: 3vw;
+	display: table;
+}
+.groupFour {
+	display: block;
+}
+.myButton {
+	float: left;
+    position: relative;
+    width: 25%;
+    height: 0;
+    padding-bottom: 25%;
+	margin: 0px auto;
+	font-size: 3vw;
+	background-color: navy
+}
+.myButton>p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+@media only screen and (max-width: 800px) {
+	.calculator {
+		margin: 5%;
+	}
+	.myButton {
+		font-size: 10vw;
+	}
+	.textLabel>h1 {
+		font-size: 10vw;
+	}
+	.textlabel {
+		height: 12vw;
+	}
+}
+:disabled {
+		background-color: darkGrey;
+}
